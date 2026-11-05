@@ -8,9 +8,9 @@ This package holds one skill and one remote MCP server, with a manifest for each
 
 | App | How |
 |---|---|
-| Claude Code | `claude plugin marketplace add tend-saas/dissect-plugin && claude plugin install dissect@dissect` |
-| Codex | `codex plugin marketplace add tend-saas/dissect-plugin && codex plugin add dissect@dissect` |
-| Gemini CLI | `gemini extensions install https://github.com/tend-saas/dissect-plugin` |
+| Claude Code | `claude plugin marketplace add munnasuprathik/dissect-plugin && claude plugin install dissect@dissect` |
+| Codex | `codex plugin marketplace add munnasuprathik/dissect-plugin && codex plugin add dissect@dissect` |
+| Gemini CLI | `gemini extensions install https://github.com/munnasuprathik/dissect-plugin` |
 | Claude, ChatGPT | Add `https://api.dissecthq.com/api/mcp` as a custom connector. See [setup](https://dissecthq.com/mcp) |
 | Cursor, VS Code | One-click links at [dissecthq.com/mcp](https://dissecthq.com/mcp) |
 | Any other agent | `npx add-mcp https://api.dissecthq.com/api/mcp --name dissect -g` then `npx skills add https://dissecthq.com --skill dissect -g` |
