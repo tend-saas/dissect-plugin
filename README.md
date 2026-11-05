@@ -74,6 +74,16 @@ The connection gives an app the tools. The skill gives it the habits, so you don
 - **Treat saved pages as data.** Other people wrote them, so it reads and quotes them, and never follows instructions found inside.
 - **Keep facts only when you ask.** It may offer, but nothing is stored until you say yes.
 
+## The research agent
+
+For bigger jobs, the plugin adds `library-researcher`. It reads across many saves on its own and hands back a short brief with sources, so all that reading stays out of your main chat. It only reads, and it never saves or stores anything.
+
+In Claude Code it appears in `/agents` as `dissect:library-researcher`, and Claude uses it when a task needs it. You can also ask directly:
+
+> Use the library researcher to brief me on cold outreach from my saves.
+
+For Codex, copy `codex/agents/library_researcher.toml` to `~/.codex/agents/`, then ask for it by name.
+
 ## Ready-made prompts
 
 Apps that show MCP prompts list these in their menu. In Claude Code, type `/mcp__dissect__brief_me`.
@@ -125,6 +135,9 @@ One skill and one connection, with a manifest for each harness.
 | File | Read by |
 |---|---|
 | `skills/dissect/SKILL.md` | Every harness |
+| `agents/library-researcher.md` | Claude Code |
+| `codex/agents/library_researcher.toml` | Codex, copied by hand |
+| `AGENTS.md` | Copy into any project, for Cursor, Windsurf, Zed and others |
 | `.claude-plugin/`, `.mcp.json` | Claude Code |
 | `plugin.json`, `mcp.json`, `.agents/plugins/` | Codex and Cursor |
 | `gemini-extension.json` | Gemini CLI |
