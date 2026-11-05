@@ -1,0 +1,19 @@
+{
+  "name": "dissect",
+  "version": "1.0.0",
+  "description": "Search, read and cite your Dissect library from any AI app, and keep memory of you across apps.",
+  "author": {
+    "name": "Dissect",
+    "url": "https://dissecthq.com"
+  },
+  "homepage": "https://dissecthq.com/mcp",
+  "repository": "https://github.com/tend-saas/dissect-plugin",
+  "license": "MIT",
+  "keywords": [
+    "dissect",
+    "bookmarks",
+    "second-brain",
+    "memory",
+    "research"
+  ]
+}

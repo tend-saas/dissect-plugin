@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "dissect": { "type": "http", "url": "https://api.dissecthq.com/api/mcp" }
+  }
+}

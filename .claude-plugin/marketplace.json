@@ -1,0 +1,7 @@
+{
+  "name": "dissect",
+  "owner": { "name": "Dissect", "url": "https://dissecthq.com" },
+  "plugins": [
+    { "name": "dissect", "source": "./", "description": "Search, read and cite your Dissect library from any AI app, and keep memory of you across apps." }
+  ]
+}

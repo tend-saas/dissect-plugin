@@ -1,0 +1,8 @@
+{
+  "name": "dissect",
+  "version": "1.0.0",
+  "description": "Search, read and cite your Dissect library from any AI app, and keep memory of you across apps.",
+  "mcpServers": {
+    "dissect": { "httpUrl": "https://api.dissecthq.com/api/mcp" }
+  }
+}
